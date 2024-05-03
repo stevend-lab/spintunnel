@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{76cc677a-540c-0487-2db5-766441e45ddb}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.Substance", "Adobe.Substance.csproj", "{66e4e554-6cfa-143a-1401-8f88668e2ee8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.Substance.Runtime", "Adobe.Substance.Runtime.csproj", "{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.SubstanceEditor", "Adobe.SubstanceEditor.csproj", "{2d31ba0f-dea2-8f31-fd83-6205987477ac}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,6 +16,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{76cc677a-540c-0487-2db5-766441e45ddb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76cc677a-540c-0487-2db5-766441e45ddb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66e4e554-6cfa-143a-1401-8f88668e2ee8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66e4e554-6cfa-143a-1401-8f88668e2ee8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2d31ba0f-dea2-8f31-fd83-6205987477ac}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2d31ba0f-dea2-8f31-fd83-6205987477ac}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

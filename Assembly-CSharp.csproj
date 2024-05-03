@@ -62,6 +62,8 @@
      <Folder Include="Assets/Prefabs" />
      <Folder Include="Assets/Prefabs/Obstacles" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Adobe" />
+     <Folder Include="Assets/Adobe/Substance3DForUnity" />
      <Folder Include="Assets/Materials" />
      <Folder Include="Assets/Prefabs/Item Generators" />
      <Reference Include="UnityEngine">
@@ -843,6 +845,18 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Adobe.Substance.Runtime.csproj">
+      <Project>{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}</Project>
+      <Name>Adobe.Substance.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Adobe.Substance.csproj">
+      <Project>{66e4e554-6cfa-143a-1401-8f88668e2ee8}</Project>
+      <Name>Adobe.Substance</Name>
+    </ProjectReference>
+    <ProjectReference Include="Adobe.SubstanceEditor.csproj">
+      <Project>{2d31ba0f-dea2-8f31-fd83-6205987477ac}</Project>
+      <Name>Adobe.SubstanceEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
