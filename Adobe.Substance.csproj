@@ -63,8 +63,8 @@
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat2.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputTexture.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Engine.cs" />
-     <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Exceptions/SubstanceException.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/ImageFormat.cs" />
+     <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Exceptions/SubstanceException.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/TextureOutputExtensions.cs" />
      <Compile Include="Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/nativevaluetype.cs" />

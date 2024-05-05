@@ -65,6 +65,7 @@
      <Folder Include="Assets/Adobe" />
      <Folder Include="Assets/Adobe/Substance3DForUnity" />
      <Folder Include="Assets/Materials" />
+     <Folder Include="Assets/plastic_circles_graph_0" />
      <Folder Include="Assets/Prefabs/Item Generators" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2023.2.0b13/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -786,6 +787,9 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>/Users/stevendeleon/SpinTunnel/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>/Users/stevendeleon/SpinTunnel/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/stevendeleon/SpinTunnel/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -840,15 +844,8 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>/Users/stevendeleon/SpinTunnel/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/stevendeleon/SpinTunnel/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Adobe.Substance.Runtime.csproj">
-      <Project>{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}</Project>
-      <Name>Adobe.Substance.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Adobe.Substance.csproj">
       <Project>{66e4e554-6cfa-143a-1401-8f88668e2ee8}</Project>
       <Name>Adobe.Substance</Name>
@@ -856,6 +853,10 @@
     <ProjectReference Include="Adobe.SubstanceEditor.csproj">
       <Project>{2d31ba0f-dea2-8f31-fd83-6205987477ac}</Project>
       <Name>Adobe.SubstanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Adobe.Substance.Runtime.csproj">
+      <Project>{0097b5f3-c554-d749-1dce-bd0eb27fdc7e}</Project>
+      <Name>Adobe.Substance.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
